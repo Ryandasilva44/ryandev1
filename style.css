@@ -1,0 +1,79 @@
+body{
+   background-color: black;
+}
+
+
+/*cabecalho*/
+
+.header, .banner{
+  max-width: 100%;
+  width: 1000px;
+  height: 250px;
+  
+}
+
+/*navbar do cabecalho*/
+.topleft{
+   display: flex;
+   position: absolute;
+   color: lawngreen;
+   margin-top: -248px;
+   font-size: 24px;
+
+}
+
+li{
+   list-style-type: none;
+   float: left;
+   padding: 8px;
+}
+
+.topright{
+   display:flex;
+   color: lawngreen;
+   float: right;
+   margin-top: -260px;
+   position: relative;
+}
+.main, img{
+   max-width: 100%;
+   width: 1000px;
+   height: 1000px;
+   margin-top: 1px;
+}
+h1{
+   position: absolute;
+   margin-top: -70px;
+   color: lawngreen
+}
+
+.container{
+   display: flex;
+   overflow-x: auto;
+   margin-top: 3px;
+}
+
+.container::-webkit-scrollbar{
+   display: none;
+}
+
+.container img{
+   margin-right: 15px;
+}
+
+   
+
+ion-icon{
+   font-size: 50px;
+   padding: 10px;
+}
+
+a{
+
+   color: lawngreen;
+}
+
+
+
+
+
